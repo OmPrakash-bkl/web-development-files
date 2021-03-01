@@ -1,75 +1,88 @@
-main {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
-    'Helvetica Neue', Arial, sans-serif;
-}
-#ti {
-    text-align: center;
-    color: darkslategrey;
-}
+body {
+    background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg"),
+    url("db.jpg");
     
-#tobg {
-    background-color: #eeeeee;
-    border-radius: 5px;
-    
+    background-blend-mode: lighten;
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
-main #title {
-    font-size: 2.5rem;
+
+
+header {
     text-align: center;
-    border: 0px;
-    margin-bottom: 0px;
-    padding-top: 40px;
-    color: darkslategrey;
+    color: white;
+    padding-top:40px;
+    line-height: 10px;
 }
-#img-div {
-    background-color: white;
-    padding: 10px;
-    margin-left: 15px;
-    margin-right: 15px;
+
+#survey-form {
+    background-color: black;
+    opacity: 0.9;
+    width: 50%;
+    margin: auto auto;
+border-radius: 5px;
+font-size: 20px;
+}
+ 
+form {
+    color: white;
+    padding: 50px 5%;
+}
+
+
+#name {
+ height: 30px;
+ width: 100%; 
+border-radius: 5px;
 
 }
-#image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    color: darkslategrey;
-   
+
+#email {
+    height: 30px;
+ width: 100%; 
+border-radius: 5px;
 }
-#img-caption {
-    text-align: center;
-    margin: 15px 0px 5px 0px;
-    font-size: 110%;
-    color: darkslategrey;
+
+#number {
+    height: 30px;
+ width: 100%; 
+border-radius: 5px;
 }
-h3 {
-    text-align: center;
-    padding: 30px 0px 30px 0px;
-    color: darkslategrey;
-}
-#ulitems {
-max-width: 550px;
-line-height: 1.6;
-text-align: left;
-margin: 0 auto 50px auto;
-color: darkslategrey;
-}
-li {
-    margin: 20px 0px;
-    color: darkslategrey;
-}
-#para {
-    max-width: 550px;
-    text-align: left;
-    margin: 0 auto 50px auto;
-    color: darkslategrey;
+.iblock {
+    padding-bottom: 30px;
     
 }
-#tribute-link {
-    text-align: center;
-    padding: 0px 0px 20px 0px;
-    color: darkslategrey;
-    font-size: 14px;
+
+#survey {
+    height: 35px;
+    width: 101%; 
+   border-radius: 5px; 
+   
 }
-a {
-    opacity: 0.8;
+
+ .list {
+    padding-bottom: 30px;
+ }
+ 
+ .iitems {
+    padding-bottom: 30px;
+}
+ 
+#fav {
+    height: 35px;
+    width: 101%; 
+   border-radius: 5px; 
+}
+#com {
+    height: 100px;
+    width: 101%; 
+   border-radius: 5px; 
+}
+#su {
+    height: 40px;
+    width: 101%; 
+   border-radius: 5px; 
+   color: white;
+   background-color: green;
+   border: 0px;
 }
